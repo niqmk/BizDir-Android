@@ -1,0 +1,21 @@
+<resources>
+
+    <dimen name="banner_image_height">320dp</dimen>
+    <dimen name="news_image_height">420dp</dimen>
+    <dimen name="banner_and_news_image_height">740dp</dimen>
+    <dimen name="margintop_para_listview">0dp</dimen>
+    <dimen name="flexible_space_image_height">410dp</dimen>
+    <dimen name="promo_image_height">410dp</dimen>
+
+    <dimen name="kadin_logo_width">180dp</dimen>
+    <dimen name="kadin_logo_height">200dp</dimen>
+
+    <dimen name="kadin_logo_login_width">150dp</dimen>
+    <dimen name="kadin_logo_login_height">170dp</dimen>
+
+    <dimen name="kadin_text_logo_width">320dp</dimen>
+    <dimen name="kadin_text_logo_height">109dp</dimen>
+    <dimen name="kadin_logo2_width">90dp</dimen>
+    <dimen name="kadin_logo2_height">88dp</dimen>
+
+</resources>

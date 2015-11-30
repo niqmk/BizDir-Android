@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_top"
+        layout="@layout/toolbar_top" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <id.bizdir.ui.widget.DrawShadowFrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:clipChildren="false"
+        app:shadowDrawable="@drawable/header_shadow">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:padding="20dp">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/member_detail_contact_full_name"
+                    android:inputType="textPersonName"
+                    android:singleLine="true"
+                    app:met_baseColor="@color/material_drawer_accent"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="0dp"
+                    app:met_primaryColor="@color/material_drawer_accent"
+                    app:met_textColor="@color/black"
+                    app:met_textColorHint="@color/hint_foreground_material_light"
+                    app:met_underlineColor="@color/material_drawer_accent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextNewEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/member_detail_contact_new_email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    app:met_baseColor="@color/material_drawer_accent"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="0dp"
+                    app:met_primaryColor="@color/material_drawer_accent"
+                    app:met_textColor="@color/black"
+                    app:met_textColorHint="@color/hint_foreground_material_light"
+                    app:met_underlineColor="@color/material_drawer_accent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/member_detail_contact_phone"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    app:met_baseColor="@color/material_drawer_accent"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="0dp"
+                    app:met_primaryColor="@color/material_drawer_accent"
+                    app:met_textColor="@color/black"
+                    app:met_textColorHint="@color/hint_foreground_material_light"
+                    app:met_underlineColor="@color/material_drawer_accent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextNoKta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/member_detail_contact_no_kta"
+                    android:singleLine="true"
+                    app:met_baseColor="@color/material_drawer_accent"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="0dp"
+                    app:met_primaryColor="@color/material_drawer_accent"
+                    app:met_textColor="@color/black"
+                    app:met_textColorHint="@color/hint_foreground_material_light"
+                    app:met_underlineColor="@color/material_drawer_accent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextNpwp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/member_detail_contact_npwp"
+                    android:singleLine="true"
+                    app:met_baseColor="@color/material_drawer_accent"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="0dp"
+                    app:met_primaryColor="@color/material_drawer_accent"
+                    app:met_textColor="@color/black"
+                    app:met_textColorHint="@color/hint_foreground_material_light"
+                    app:met_underlineColor="@color/material_drawer_accent" />
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/button_submit"
+                    style="@style/RaiseWaveButtonRippleStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bt_height"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/bottom_submit"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                    android:textColor="#FF000000" />
+            </LinearLayout>
+        </ScrollView>
+    </id.bizdir.ui.widget.DrawShadowFrameLayout>
+</RelativeLayout>

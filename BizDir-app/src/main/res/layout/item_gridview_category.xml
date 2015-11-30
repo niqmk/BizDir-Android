@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/gridview_item_width"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip"
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip"
+    android:paddingTop="5dip">
+
+    <FrameLayout
+        android:id="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="@dimen/frame_icon_gridview_height"
+            android:layout_height="@dimen/frame_icon_gridview_height"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/frame_gridview_item" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/icon_gridview_height"
+            android:layout_height="@dimen/icon_gridview_height"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abc_ic_menu_selectall_mtrl_alpha" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextShadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center|top"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="Example application Isigood adsasdas asdsdasd"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

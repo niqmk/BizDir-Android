@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialDrawerTheme.BizDir" parent="MaterialDrawerTheme" />
+
+    <style name="MaterialDrawerTheme.BizDir.Light.DarkToolbar.TranslucentStatus" parent="MaterialDrawerTheme.Light.DarkToolbar" />
+
+    <style name="MaterialDrawerTheme.BizDir.Light.FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="TextShadow">
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="TextTitleLitle">
+        <item name="android:textColor">@color/material_drawer_accent</item>
+        <item name="android:textSize">@dimen/text_title_litle_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="EditTextTitle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:editable">false</item>
+        <item name="android:textSize">@dimen/text_title_normal_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="EditTextTitleMax7Line">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:editable">false</item>
+        <item name="android:textSize">@dimen/text_title_normal_size</item>
+        <item name="android:maxLines">7</item>
+    </style>
+
+    <style name="EditTextNormal">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_title_normal_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="EditTextNormalWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_title_normal_size</item>
+    </style>
+
+    <style name="BottomSheet.StyleDialog" parent="BottomSheet.Dialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/material_drawer_primary</item>
+        <item name="android:textColorSecondary">@color/material_drawer_primary_dark</item>
+        <item name="android:textColorHint">@color/hint_foreground_material_light</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Widget.CardContent.New" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="RaiseButtonRippleStyle" parent="Material.Drawable.Ripple.Touch.Light">
+        <item name="android:background">@drawable/bg_bt_raise</item>
+        <item name="rd_leftPadding">1dp</item>
+        <item name="rd_topPadding">1dp</item>
+        <item name="rd_rightPadding">1dp</item>
+        <item name="rd_bottomPadding">2dp</item>
+    </style>
+
+    <style name="RaiseWaveButtonRippleStyle" parent="Material.Drawable.Ripple.Wave.Light">
+        <item name="android:background">@drawable/bg_bt_raise</item>
+        <item name="rd_leftPadding">1dp</item>
+        <item name="rd_topPadding">1dp</item>
+        <item name="rd_rightPadding">1dp</item>
+        <item name="rd_bottomPadding">2dp</item>
+    </style>
+
+    <style name="FlatWaveColorButtonRippleStyle" parent="Material.Drawable.Ripple.Wave.Light">
+        <item name="android:background">@null</item>
+        <item name="rd_rippleColor">@color/white_transparent</item>
+        <item name="rd_cornerRadius">4dp</item>
+        <item name="rd_leftPadding">1dp</item>
+        <item name="rd_topPadding">1dp</item>
+        <item name="rd_rightPadding">1dp</item>
+        <item name="rd_bottomPadding">1dp</item>
+    </style>
+
+    <style name="FlatWaveColorButtonRippleStyleLight" parent="Material.Drawable.Ripple.Wave.Light">
+        <item name="android:background">@null</item>
+        <item name="rd_rippleColor">@color/material_drawer_primary_light</item>
+        <item name="rd_cornerRadius">4dp</item>
+        <item name="rd_leftPadding">1dp</item>
+        <item name="rd_topPadding">1dp</item>
+        <item name="rd_rightPadding">1dp</item>
+        <item name="rd_bottomPadding">1dp</item>
+    </style>
+
+    <style name="LightDeterminateLinearProgressView" parent="LightLinearProgressView">
+        <item name="pv_progressStyle">@style/LightDeterminateLinearProgressDrawable</item>
+        <item name="pv_progressMode">determinate</item>
+    </style>
+
+    <style name="LightDeterminateLinearProgressDrawable" parent="Material.Drawable.LinearProgress.Determinate">
+        <item name="lpd_strokeColor">@color/material_drawer_accent</item>
+        <item name="lpd_strokeSecondaryColor">@color/white_transparent</item>
+    </style>
+
+    <style name="LightLinearProgressView">
+        <item name="pv_autostart">false</item>
+        <item name="pv_circular">false</item>
+        <item name="pv_progressStyle">@style/LightLinearProgressDrawable</item>
+        <item name="pv_progressMode">indeterminate</item>
+    </style>
+
+    <style name="LightLinearProgressDrawable" parent="Material.Drawable.LinearProgress">
+        <item name="lpd_strokeColor">@color/material_drawer_accent</item>
+        <item name="lpd_strokeSecondaryColor">@color/white_transparent</item>
+    </style>
+
+    <style name="DarkDeterminateLinearProgressView" parent="LightLinearProgressView">
+        <item name="pv_progressStyle">@style/DarkDeterminateLinearProgressDrawable</item>
+        <item name="pv_progressMode">determinate</item>
+    </style>
+
+    <style name="DarkDeterminateLinearProgressDrawable" parent="Material.Drawable.LinearProgress.Determinate">
+        <item name="lpd_strokeColor">@color/material_drawer_accent</item>
+        <item name="lpd_strokeSecondaryColor">@color/material_drawer_primary_dark</item>
+        <item name="lpd_reverse">true</item>
+    </style>
+
+    <style name="DarkLinearProgressView">
+        <item name="pv_autostart">false</item>
+        <item name="pv_circular">false</item>
+        <item name="pv_progressStyle">@style/DarkLinearProgressDrawable</item>
+        <item name="pv_progressMode">indeterminate</item>
+    </style>
+
+    <style name="DarkLinearProgressDrawable" parent="Material.Drawable.LinearProgress">
+        <item name="lpd_strokeColor">@color/material_drawer_accent</item>
+        <item name="lpd_strokeSecondaryColor">@color/white_transparent</item>
+        <item name="lpd_reverse">true</item>
+    </style>
+
+</resources>

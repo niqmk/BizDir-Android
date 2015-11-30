@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list"
+    android:padding="10dip"
+    android:paddingLeft="15dp">
+
+    <FrameLayout
+        android:id="@+id/icon"
+        android:layout_width="@dimen/icon_member_listview_height"
+        android:layout_height="@dimen/icon_member_listview_height"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dip">
+
+        <!--
+        <com.mikepenz.materialdrawer.view.BezelImageView
+            android:id="@+id/logoMember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/default_member"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            app:biv_maskDrawable="@drawable/circle_mask" />
+            -->
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/logoMemberBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_member"
+            app:siBorderColor="@color/white_transparent"
+            app:siBorderWidth="1px"
+            app:siRadius="6dp"
+            app:siSquare="true" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/logoMember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_member"
+            app:siBorderColor="@color/white_transparent"
+            app:siBorderWidth="1px"
+            app:siRadius="6dp"
+            app:siSquare="true" />
+
+        <ImageView
+            android:id="@+id/logoVerified"
+            android:layout_width="@dimen/icon_verification_width"
+            android:layout_height="@dimen/icon_verification_height"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/icon_verified_margin"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_verification_on" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextShadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/buttonCall"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toStartOf="@+id/buttonCall"
+        android:singleLine="true"
+        android:text="Example application"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/city"
+        style="@style/TextShadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/buttonCall"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toStartOf="@+id/buttonCall"
+        android:singleLine="true"
+        android:text="Example application"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <id.bizdir.ui.widget.CircleButton
+        android:id="@+id/buttonCall"
+        android:layout_width="@dimen/icon_member_listview_height"
+        android:layout_height="@dimen/icon_member_listview_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_call_white_24dp"
+        app:cb_color="@color/white_transparent"
+        app:cb_pressedRingWidth="8dip" />
+
+</RelativeLayout>

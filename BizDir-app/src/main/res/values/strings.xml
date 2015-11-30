@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">BizDir</string>
+
+    <!-- Sample menu -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Drawer Items -->
+    <string name="drawer_item_compact_header">CompactHeader Sample</string>
+    <string name="drawer_item_action_bar">ActionBar Sample</string>
+    <string name="drawer_item_multi_drawer">MultiDrawer Sample</string>
+    <string name="drawer_item_non_translucent_status_drawer">NonTranslucentStatusDrawer Sample</string>
+    <string name="drawer_item_complex_header_drawer">ComplexHeaderDrawer Sample</string>
+    <string name="drawer_item_simple_fragment_drawer">SimpleFragment Sample</string>
+    <string name="drawer_item_embedded_drawer">EmbeddedDrawer Sample</string>
+    <string name="drawer_item_fullscreen_drawer">FullScreen Sample</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_free_play">Free Play</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_section_header">Section Header</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <!-- Allega Drawer Items -->
+    <string name="drawer_item_search">Search</string>
+    <string name="drawer_item_favorite">Favorite</string>
+    <string name="drawer_item_category">Category</string>
+    <string name="drawer_item_association">Association</string>
+    <string name="drawer_item_opportunities">Opportunities</string>
+    <string name="drawer_item_news">News</string>
+    <string name="drawer_item_forum">Forum</string>
+    <string name="drawer_item_forums">Forums</string>
+    <string name="drawer_item_promotion">Promotion</string>
+    <string name="drawer_item_event_calendar">Event Calendar</string>
+    <string name="drawer_item_download">Download</string>
+    <string name="drawer_item_header_other">Other</string>
+    <string name="drawer_item_about">About</string>
+    <string name="drawer_item_faq">FAQ</string>
+    <string name="drawer_item_logout">Logout</string>
+    <string name="title_verification_form">Verification Form</string>
+    <string name="title_image_view">Gallery</string>
+    <string name="title_stock_detail">Stock Info</string>
+    <string name="title_weather_detail">Weather Forecast</string>
+    <string name="title_register">Register</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_walkthrough">Walkthrough</string>
+
+    <string name="category_item_nature">Nature Products</string>
+    <string name="category_item_gifts">Gifts, Arts &amp; Crafts</string>
+    <string name="category_item_automotive">Automotive Components</string>
+    <string name="category_item_chemical">Chemical Products</string>
+    <string name="category_item_electricity">Electricity &amp; Electronics</string>
+    <string name="category_item_food">Food &amp; Beverages</string>
+    <string name="category_item_home">Home, Lights &amp; Construction</string>
+    <string name="category_item_event_jewellery">Jewellery, Bags &amp; Shoes</string>
+    <string name="category_item_health">Health &amp;  Beauty</string>
+    <string name="category_item_machine">Machine, Hardware &amp;  Tools</string>
+    <string name="category_item_printing">Printing, Advertising &amp; Office</string>
+    <string name="category_item_raw">Raw Minerals &amp; Energy</string>
+    <string name="category_item_business">Business &amp; Other Services</string>
+    <string name="category_item_sport">Sport, Toys &amp; Hobbies</string>
+    <string name="category_item_apparel">Apparel, Textile &amp; Accessories</string>
+
+    <string name="category_sub_item_nature_agricultural">Agricultural Waste</string>
+    <string name="category_sub_item_nature_animal">Animal</string>
+    <string name="category_sub_item_nature_cigarettes">Cigarettes and Tobacco</string>
+    <string name="category_sub_item_nature_essential">Essential Oils</string>
+    <string name="category_sub_item_nature_marine">Marine Product</string>
+    <string name="category_sub_item_nature_organic">Organic Product</string>
+    <string name="category_sub_item_nature_plan">Plan and Vegetables</string>
+
+    <string name="member_detail_contact_full_name">Full Name</string>
+    <string name="member_detail_contact_address">Address</string>
+    <string name="member_detail_contact_phone">Phone</string>
+    <string name="member_detail_contact_fax">Fax</string>
+    <string name="member_detail_contact_email">Email</string>
+    <string name="member_detail_contact_new_email">New Email Address</string>
+    <string name="member_detail_contact_email_address">Email Address</string>
+    <string name="member_detail_contact_website">Website</string>
+    <string name="member_detail_contact_hint">-</string>
+    <string name="member_detail_contact_no_kta">No KTA</string>
+    <string name="member_detail_contact_npwp">NPWP</string>
+    <string name="search_company_code_hint">Search Code</string>
+    <string name="news_category">News Category :</string>
+    <string name="news_category_hint">News Category</string>
+    <string name="news_stock_market_board">Market Board</string>
+    <string name="news_stock_open">Open</string>
+    <string name="news_stock_last">Last</string>
+    <string name="news_stock_change">Change</string>
+    <string name="news_stock_percent_change">Percent Change</string>
+    <string name="news_stock_value">Value</string>
+    <string name="news_stock_volume">Volume</string>
+    <string name="news_stock_stock_code">Stock Code</string>
+    <string name="news_stock_high">High</string>
+    <string name="news_stock_low">Low</string>
+    <string name="news_stock_stock_name">Stock Name</string>
+    <string name="news_stock_close">Close</string>
+    <string name="news_stock_source">Source</string>
+    <string name="news_stock_link_source">http://wwww.imq21.com</string>
+    <string name="user_full_name">Full Name</string>
+
+    <string name="bottom_sheet_call">Call</string>
+    <string name="bottom_sheet_phonecall">Phone Call</string>
+    <string name="bottom_sheet_sendemail">Send Email</string>
+    <string name="bottom_sheet_openwebsite">Open Website</string>
+    <string name="bottom_sheet_showonmap">Show On Map</string>
+    <string name="bottom_submit">SUBMIT</string>
+    <string name="bottom_attend">Attend</string>
+    <string name="bottom_not_attend">Not Attend</string>
+    <string name="button_search">What do you want to find?</string>
+    <string name="button_register">Register</string>
+    <string name="button_Login">Login</string>
+    <string name="button_cant_access">I cannot access my account</string>
+    <string name="button_skip">Skip</string>
+    <string name="button_already_member">Already a Member?</string>
+
+    <string name="create_rspv">Please give RSVP to this Event!</string>
+    <string name="error_create_rspv">Sorry, error when create RSPV, please try again!</string>
+    <string name="success_create_rspv">Create RSVP is success!</string>
+    <string name="fill_phone_number">Please fill in Your phone number in profile to see the RSVP!</string>
+
+    <string name="action_email_us">Email Us</string>
+    <string name="action_share_this">Share This</string>
+    <string name="action_favorite_member">Add to favorite</string>
+    <string name="action_refresh">Refresh Data</string>
+    <string name="action_home">Goto Home</string>
+    <string name="action_reply_forum">Post Reply</string>
+    <string name="action_post_message_forum">Post Message</string>
+    <string name="action_reset_password">Reset Password</string>
+    <string name="action_reset_password_message">Please input email address</string>
+    <string name="action_message">Message</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_search">Search</string>
+    <string name="action_search_location">Search Location</string>
+    <string name="action_verification">Verification</string>
+    <string name="bizdir_url">http://www.bizdir.id</string>
+    <string name="bizdir_by">By :</string>
+    <string name="bizdir_by_kadin">KADIN Indonesia</string>
+    <string name="bizdir_by_kadin_splash">By KADIN Indonesia</string>
+    <string name="alamat_kadin">Menara Kadin Indonesia Lt. 29\nJalan HR Rasuna Said X&#8211;5 kav 2&#8211;3,\nJakarta 12950 &#8211; Indonesia</string>
+
+    <string name="action_change_news">Business News Category</string>
+    <string name="action_change_stock_category">Stock News Category</string>
+    <string name="action_change_forum">Forum Category</string>
+    <string name="user_logout_title">Confirm Logout</string>
+    <string name="user_logout_message">Are you sure you want to Logout?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_copy">Copy to Clipboard</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_close">Close</string>
+    <string name="button_choose">Choose</string>
+    <string name="button_email_bizdir">Email BizDir</string>
+    <string name="button_kadin_address">KADIN ADDRESS</string>
+    <string name="button_verification">Verification</string>
+    <string name="email_bizdir">info@bizdir.id</string>
+    <string name="dialog_bizdirid">BizDir Id</string>
+    <string name="dialog_bizdirid_not_available">Sorry BizDir Id is not available for this profile!</string>
+    <string name="dialog_bizdirid_success_copy">Copying BizDir Id was successful!</string>
+    <string name="clear_selection">Clear All</string>
+
+    <string name="loading_page">Loading Page</string>
+    <string name="loading_page_title">Please wait, loading page</string>
+    <string name="alamat_kadin_title">Alamat Kadin</string>
+
+    <string name="app_exit_title">Confirm Exit</string>
+    <string name="app_exit_message">Are you sure you want to Exit?</string>
+
+    <string name="app_logout_title">Confirm Logout</string>
+    <string name="app_logout_message">Are you sure you want to Logout?</string>
+
+    <string name="app_login_title">Confirm Login</string>
+    <string name="app_login_message">Are you sure you want to Login?</string>
+
+    <string name="app_need_login_title">Please Login</string>
+    <string name="app_need_login_message">You must login first! Are you sure you want to Login?</string>
+
+    <string name="member_add_favorite_title">Add To Favorite</string>
+    <string name="member_add_favorite_message">Are you sure you want to Add to Favorite?</string>
+
+    <string name="member_remove_favorite_title">Remove From Favorite</string>
+    <string name="member_remove_favorite_message">Are you sure you want to Remove from Favorite?</string>
+
+    <string name="error_remove_favorite">Sorry, error when remove favorite!</string>
+    <string name="error_add_favorite">Sorry, error when add favorite!</string>
+
+    <string name="verification_on">Verified Member</string>
+    <string name="verification_off">Unverified Member</string>
+
+    <string name="bizdir_info">Info BizDir</string>
+    <string name="change_location">Change Location</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="location_indonesia">Indonesia</string>
+    <string name="celsius">N/A°C</string>
+
+    <string name="search_hot_deal">Hot Deals</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Confirm Password</string>
+    <string name="user_phone">Phone</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_gender_male">Male</string>
+    <string name="user_gender_Female">Female</string>
+    <string name="user_birthday">Birthday</string>
+    <string name="user_no_kta">No KTA</string>
+    <string name="user_interest">Interest</string>
+    <string name="user_bizdirid">BizDir Id</string>
+
+    <string name="intent_error_call">Mobile Network Not Available on this device</string>
+    <string name="intent_error_open_url">No browser client installed</string>
+    <string name="intent_choose_email_client">Choose an email client</string>
+    <string name="intent_error_email_client">No email client installed</string>
+
+    <string name="dialog_verification_ok_title">Verification</string>
+    <string name="dialog_verification_ok_message">This company data has been verified by KADIN Indonesia</string>
+    <string name="dialog_verification_message">If you are the owner of this company. Please Choose VERIFICATION button, or CLOSE button to close this dialog</string>
+
+    <string name="dialog_registration_failed">Registration Failed</string>
+    <string name="dialog_registration">Registration</string>
+
+    <string name="dialog_update">Update Profile</string>
+    <string name="dialog_update_message">Member update successfully!</string>
+    <string name="dialog_update_failed">Update Profile Failed</string>
+    <string name="dialog_update_failed_message">Update profile failed, please try again!</string>
+
+    <string name="dialog_registration_message">User create successfully, please check your email to activate the account!</string>
+    <string name="dialog_registration_failed_message">Registration failed, please try again!</string>
+    <string name="dialog_reset_password_failed">Reset Password Failed</string>
+    <string name="dialog_reset_password">Reset Password</string>
+    <string name="dialog_reset_password_message">Reset password successfully, please check your email!</string>
+    <string name="dialog_reset_password_failed_message">Reset password failed, please try again!</string>
+    <string name="dialog_login_failed">Login Failed</string>
+    <string name="dialog_association_failed">Get Association Failed</string>
+    <string name="no_internet_connection_title">No Internet Connection</string>
+    <string name="no_internet_connection">Please check your internet connection!</string>
+    <string name="dialog_login_failed_message">Email address or password is wrong!</string>
+    <string name="dialog_forum_post_failed">Reply Forum Failed</string>
+    <string name="dialog_forum_post_failed_message">Reply forum failed, please try again!</string>
+    <string name="dialog_get_news">Get News Failed</string>
+    <string name="dialog_get_news_message">Get news failed, please try again!</string>
+    <string name="dialog_get_weather_failed">Get Weather Failed</string>
+    <string name="dialog_get_weather_failed_message">Get weather failed, please try again!</string>
+    <string name="info_verification_by_email">When you applied as a KADIN member, you have registered your email with us.\n\nClick the link in that email to verify that you own this address.\nIf you don\'t verify your address, you may not able to access certain BIZDIR features.</string>
+    <string name="info_cannot_access_my_email">Have you forgot your email / your password / cannot login?\n\nFill out the form to identify your membership. You will receive login info to access your account in your new email.</string>
+    <string name="info_notyet_member">Join a KADIN member to be able to access certain BIZDIR features: download important seminar material; join business forum; promote your products with member discount to global and international buyer; etc.\n\nFill in your particulars using the form. KADIN admin will contact you to process the registration. Or you can apply now at KADIN Office in your town / distric.</string>
+
+    <string name="info_kadin_search">* Are you a member of BIZDIR? Promote your business in BIZDIR Apps.\n* Apply Now at KADIN Office in your town / district or KADIN Indonesia, Menara Kadin Indonesia Lt. 29, Jalan HR Rasuna Said X-5 kav 2-3, Jakarta.\n* For more information: info@bizdir.id.</string>
+
+    <string name="no_data">No data available</string>
+    <string name="no_data_try_again">No data available, Please try again later</string>
+    <string name="failed_try_again">Image failed to download, Please try again</string>
+
+    <string name="business_opportunities">Business Opportunities</string>
+    <string name="promo_product">Promo Product / Sales</string>
+    <string name="bizdir_ads">BizDir Advertise</string>
+
+    <string name="user_type_admin">Admin</string>
+    <string name="user_type_guest">Guest</string>
+
+    <string name="register_fullname_cannot_empty">Full name cannot be empty!</string>
+    <string name="register_no_kta_not_valid">No KTA is not valid!</string>
+    <string name="register_email_cannot_empty">Email cannot be empty!</string>
+    <string name="register_email_invalid">Email cannot be empty!</string>
+    <string name="register_email_format_invalid">Invalid email format!</string>
+    <string name="register_password_cannot_empty">Password cannot be empty!</string>
+    <string name="register_password_repeat_cannot_empty">Confirm password cannot be empty!</string>
+    <string name="register_password_notmatch">Password does not match the confirm password!</string>
+
+    <string name="space_newsticker">                                                          </string>
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+    <string name="lipsum">Lorem ipsum dolor sit amet, ut duis lorem provident sed felis blandit, condimentum donec lectus ipsum et mauris, morbi porttitor interdum feugiat nulla donec sodales, vestibulum nisl primis a molestie vestibulum quam, sapien mauris metus risus suspendisse magnis. Augue viverra nulla faucibus egestas eu, a etiam id congue rutrum ante, arcu tincidunt donec quam felis at ornare, iaculis ligula sodales venenatis commodo volutpat neque, suspendisse elit praesent tellus felis mi amet. Inceptos amet tempor lectus lorem est non, ac donec ac libero neque mauris, tellus ante metus eget leo consequat. Scelerisque dolor curabitur pretium blandit ut feugiat, amet lacus pulvinar justo convallis ut, sed natoque ipsum urna posuere nibh eu. Sed at sed vulputate sit orci, facilisis a aliquam tellus quam aliquam, eu aliquam donec at molestie ante, pellentesque mauris lorem ultrices libero faucibus porta, imperdiet adipiscing sit hac diam ut nulla. Lacus enim elit pulvinar donec vehicula dapibus, accumsan purus officia cursus dolor sapien, eu amet dis mauris mi nulla ut. Non accusamus etiam pede non urna tempus, vestibulum aliquam tortor eget pharetra sodales, in vestibulum ut justo orci nulla, lobortis purus sem semper consectetuer magni purus. Dolor a leo vestibulum amet ut sit, arcu ut eaque urna fusce aliquet turpis, sed fermentum sed vestibulum nisl pede, tristique enim lorem posuere in laborum ut. Vestibulum id id justo leo nulla, magna lobortis ullamcorper et dignissim pellentesque, duis suspendisse quis id lorem ante. Vivamus a nullam ante adipiscing amet, mi vel consectetuer nunc aenean pede quisque, eget rhoncus dis porttitor habitant nunc vivamus, duis cubilia blandit non donec justo dictumst, praesent vitae nulla nam pulvinar urna. Adipiscing adipiscing justo urna pulvinar imperdiet nullam, vitae fusce rhoncus proin nonummy suscipit, ullamcorper amet et non potenti platea ultrices, mauris nullam sapien nunc justo vel, eu semper pellentesque arcu fusce augue. Malesuada mauris nibh sit a a scelerisque, velit sem lectus tellus convallis consectetuer, ultricies auctor a ante eros amet sed.\n\n
+Risus lacus duis leo platea wisi, felis maecenas rutrum in id in donec, non id a potenti libero eget, posuere elit ea sed pellentesque quis. Sunt lacus urna lorem elit duis, nibh donec purus quisque consectetuer dolor, neque vestibulum proin ornare eros nonummy phasellus. Iaculis cras eu at egestas dolor montes, viverra quisque malesuada consectetuer semper maecenas, a sed vitae donec tempor aliqua metus, ornare mollis suscipit et erat fusce, sit orci aut auctor elementum fames aliquam. Platea dui integer magnis non metus, minus dignissimos ante massa nostra et, rutrum sapien egestas quis sapien donec donec. Erat sit a eros aenean natoque, quam libero id lorem enim proin, lorem ipsum fermentum mattis metus et. Aliquam aliquet suscipit purus conubia at neque, platea vivamus vestibulum nulla quibusdam senectus, et morbi lectus malesuada gravida donec, elementum sit convallis pellentesque velit amet. Et eveniet viverra vehicula consectetuer justo, provident sed commodo non lacinia velit, tempor phasellus vel leo nisl cras, vivamus et arcu interdum dui eu amet. Volutpat wisi rhoncus vel turpis diam quibusdam, dapibus elit est quisque cubilia mauris, nulla elit magna tempor accumsan bibendum, lorem varius sed interdum eget mattis, scelerisque egestas feugiat donec dui molestie. Leo facilisis nisl sit montes ligula sed, enim commodo consectetuer nunc est et, ut sed vehicula dolor luctus elit. Fermentum cras donec eget nibh est vel, sed justo risus et pharetra diam, eu vivamus egestas ligula risus diam, sed justo eget hac ut mauris. Vestibulum diam nec vitae mi eget suspendisse, aenean arcu purus facilisis purus class in, id aliquam sit id scelerisque sapien etiam. Ut nullam sit sed at mauris lobortis, consequat dolor autem ipsum euismod nulla, elit quis proin eget conubia varius, erat arcu massa mus in mauris, scelerisque ut eu sollicitudin libero leo urna.\n\n
+Consectetuer luctus tempor elit ut dolor ligula, quis dui per dui hendrerit ante sagittis, in quisque pretium in eleifend enim. Condimentum iaculis vitae feugiat dis tellus vel, lectus dolor nec dui nulla nascetur, et pellentesque curabitur lorem leo velit eget. Id nascetur arcu lobortis suspendisse imperdiet urna, natoque nascetur ante in porta a, interdum hendrerit mi bibendum platea tellus, urna in enim ornare vestibulum faucibus enim. Leo fusce egestas ante nec volutpat, in tempor vel facilisis potenti ut, pede at non lorem a commodo, nulla dolor orci interdum vestibulum nulla. Dui nulla vestibulum quisque a pharetra porta, integer nec ipsum nec sed dui pharetra, magna et dignissim ipsum sed dictum, litora eros vivamus scelerisque libero ipsum. Sed ac ac lorem molestie adipiscing morbi, pellentesque imperdiet nunc quis morbi amet ante, libero dui ligula nec risus neque et, velit nonummy phasellus et facilisi amet, ligula in elementum non sapien pulvinar faucibus. Eu leo ut posuere sed aliquet, tincidunt vel urna volutpat tempus sem, sit felis aliquet vestibulum condimentum sit, amet nibh vel tellus purus ullamcorper libero, nulla vestibulum pede ut vestibulum pretium. Eu nulla vestibulum a neque in metus, quisquam nam sed cursus eget luctus, pede ultrices nec sed dignissim pellentesque, sit class cursus metus nulla placerat mauris, consequat mollis neque vivamus amet pede. Mauris dolor nulla diam eros bibendum, quam ante vestibulum morbi non ligula vel, molestie curabitur rhoncus nulla euismod interdum non. Nulla fringilla lorem mollis ad massa, sit molestie nibh lorem arcu volutpat, accumsan commodo lectus eu et donec, sit tempor tempus rutrum in curabitur amet. Nec urna euismod a tincidunt commodo, eu pede turpis libero vitae viverra, ante vestibulum nam non habitasse potenti, mauris imperdiet in in nunc convallis. Et nostra wisi in est accumsan vehicula, quisque vitae felis mauris sed vulputate nec, ante imperdiet sollicitudin massa iaculis massa sit.\n\n
+Quam libero nulla netus eu porta curae, ut nulla bibendum facilisis et urna sed, quis congue vestibulum aliquam interdum etiam. Nulla vel lobortis ullamcorper vitae excepturi, neque urna feugiat lectus vel lacinia, massa pretium orci eu metus neque vulputate. Imperdiet ac velit rhoncus nulla malesuada nullam, nec pulvinar justo gravida lorem rutrum magna, habitasse repudiandae mi eros vestibulum ante, nec euismod dui iaculis in turpis pretium, ac id metus egestas proin lacus lectus. Laoreet lorem nec vitae risus erat arcu, vitae quam ut in ante tristique, porta dolor pede quam et odio nam, arcu lacus sem congue ante cursus massa. Et mattis sagittis erat accumsan fusce quam, vehicula ligula beatae natoque fusce sodales conubia, habitasse metus cum magnis viverra nam cursus, egestas urna wisi primis blandit eu magna, eget libero elit lacus lorem dis aliquam. Ut mauris ante natoque lacus massa, justo a lectus sodales enim adipiscing id, accumsan ut ipsum vestibulum sed enim auctor, vitae congue tincidunt id phasellus lacinia scelerisque, tincidunt sapien nulla euismod volutpat iaculis. Platea sociis nec aliquet nec molestie, in mi et augue sapien in vivamus, integer fames proin vitae in ullamcorper et. Fringilla etiam sapiente rhoncus suspendisse nec id, lobortis cras eget egestas dui ac nec, justo lacus ut lorem bibendum quia eros, eget a gravida id donec nunc suscipit, porta sed in sodales non rutrum. Lectus vel dui elementum pellentesque magna aliquam, vitae non sit pede et fusce nibh, id id deserunt ornare dui sit condimentum, in adipiscing imperdiet turpis nam aliquet, facilisis metus magna lacus wisi facilisis tortor. Vulputate elit accumsan quam amet ligula, suspendisse lacus mi nonummy integer urna, libero nulla nunc varius in odio, laoreet nulla amet placerat amet nec. Consectetuer vel massa hendrerit vitae iaculis id, sed ut ut laudantium odio in, elit vestibulum duis ante maecenas interdum in, neque vehicula ultrices varius in quam, pede tellus pellentesque sed nullam quis.</string>
+    <string name="lipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus sem et ante rhoncus pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur lacinia mattis quam, non laoreet felis vestibulum ac. Curabitur pharetra vel est quis cursus. Etiam faucibus turpis in nunc semper sollicitudin. Nam fermentum commodo ligula. Aliquam a tellus sollicitudin, ultricies est ac, porta ante. Nam aliquet mi nulla, ut laoreet nunc vestibulum ut. Quisque non purus urna. Aliquam sed porta lectus. In a ipsum varius, imperdiet magna in, hendrerit arcu. Donec porta, nulla non viverra sollicitudin, nisl mi suscipit nisl, nec pellentesque est mi ut neque. Duis viverra laoreet nibh at malesuada.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2428139824666330/3718360802</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2428139824666330/3857961609</string>
+</resources>

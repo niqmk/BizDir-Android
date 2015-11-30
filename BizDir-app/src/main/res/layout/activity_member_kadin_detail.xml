@@ -1,0 +1,120 @@
+<com.github.ksoichiro.android.observablescrollview.TouchInterceptionFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/pager_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageBackground"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flexible_space_image_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_company_detail_default" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flexible_space_image_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_company_detail_default" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/logoMemberBackground"
+            android:layout_width="@dimen/icon_member_listview_height"
+            android:layout_height="@dimen/icon_member_listview_height"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_member"
+            android:visibility="gone"
+            app:siBorderColor="@color/white_transparent"
+            app:siBorderWidth="1px"
+            app:siRadius="6dp"
+            app:siSquare="true" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/logoMember"
+            android:layout_width="@dimen/icon_member_listview_height"
+            android:layout_height="@dimen/icon_member_listview_height"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_member"
+            app:siBorderColor="@color/white_transparent"
+            app:siBorderWidth="1px"
+            app:siRadius="6dp"
+            app:siSquare="true" />
+        <!--
+                <ImageView
+                    android:id="@+id/imageVerified"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/btn_verified" /> -->
+
+        <View
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flexible_space_image_height"
+            android:background="?attr/colorPrimary" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flexible_space_image_height"
+            android:paddingEnd="@dimen/margin_standard"
+            android:paddingLeft="@dimen/margin_standard"
+            android:paddingStart="@dimen/margin_standard">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/TextShadow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/tab_height"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:minHeight="?attr/actionBarSize"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flexible_space_image_height"
+                android:background="@android:color/transparent" />
+        </RelativeLayout>
+
+        <id.bizdir.ui.widget.SlidingTabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            android:background="?attr/colorPrimary" />
+    </FrameLayout>
+</com.github.ksoichiro.android.observablescrollview.TouchInterceptionFrameLayout>

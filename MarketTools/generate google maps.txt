@@ -1,0 +1,37 @@
+bizdir_keystore.jks
+
+Alias: bizdir
+Key store pass: BizDir123
+Key pass: BizDir123
+
+==================
+
+bizdir.kadin.allega.com.bizdir
+
+==================
+
+debug.keystore:
+
+keytool -list -v -alias androiddebugkey -keystore debug.keystore -storepass android -keypass android
+
+- MD5: 25:79:36:7F:BA:65:00:3D:42:18:8F:AF:2B:CF:CA:8C
+- SHA1: 39:2D:5C:04:72:97:49:84:F2:78:0B:3F:59:31:E7:5D:6B:E9:2B:0F
+- SHA256: 18:C0:EA:E9:12:FB:C4:A8:72:23:AA:A0:F5:4A:47:80:75:88:67:02:19:73:C5:EA:AD:03:86:0A:EE:AC:EA:FC
+
+Key for Android applications:
+
+AIzaSyCIqoUnFtTNFPVO4SOjOIaRIDVAHIJ-kWc
+
+==================
+
+bizdir_keystore.jks:
+
+keytool -list -v -alias bizdir -keystore bizdir_keystore.jks -storepass BizDir123 -keypass BizDir123
+
+- MD5: E3:69:87:A3:A7:45:DD:BD:3D:FD:B2:80:7A:75:01:26
+- SHA1: 6B:47:10:1F:E6:E2:82:01:34:30:BD:90:2F:E3:2A:65:C4:CE:D9:0B
+- SHA256: 84:68:D4:76:70:A7:28:C4:72:94:12:7A:B5:2F:D5:0A:1F:9C:60:36:A1:F0:51:91:99:FB:2A:F3:79:56:A9:71
+
+Key for Android applications:
+
+AIzaSyBtFGFANsYRJ1iMNeW3hwgs7CVK_qRhSjk

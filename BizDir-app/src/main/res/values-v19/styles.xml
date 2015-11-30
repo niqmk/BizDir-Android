@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialDrawerTheme.BizDir" parent="MaterialDrawerTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="MaterialDrawerTheme.BizDir.Light.DarkToolbar.TranslucentStatus" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

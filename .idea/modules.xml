@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BizDir-app/BizDir-app.iml" filepath="$PROJECT_DIR$/BizDir-app/BizDir-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoView-library/PhotoView-library.iml" filepath="$PROJECT_DIR$/PhotoView-library/PhotoView-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appintro-library/appintro-library.iml" filepath="$PROJECT_DIR$/appintro-library/appintro-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizdir-android.iml" filepath="$PROJECT_DIR$/bizdir-android.iml" />
+    </modules>
+  </component>
+</project>

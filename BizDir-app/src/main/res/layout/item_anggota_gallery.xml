@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip">
+
+    <FrameLayout
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/icon_gridview_gallery"
+        android:layout_height="@dimen/icon_gridview_gallery"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black_transparent"
+        android:padding="1px">
+
+        <ImageView
+            android:id="@+id/defaultImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_member" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imageButtonAds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_list" />
+
+    </FrameLayout>
+
+</RelativeLayout>

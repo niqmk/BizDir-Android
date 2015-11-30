@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="member_kadin_detail_tab">
+        <item>Contact</item>
+        <item>Profile</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <string-array name="event_calendar_tab">
+        <item>Seminar</item>
+        <item>Pameran</item>
+    </string-array>
+
+    <string-array name="news_tab">
+        <item>Kadin</item>
+        <item>Antara</item>
+        <item>Stock</item>
+    </string-array>
+
+    <string-array name="verification_full_list">
+        <item>Verification By Email</item>
+        <item>Cannot Access My Email</item>
+        <item>Not Yet a KADIN Member</item>
+    </string-array>
+
+    <string-array name="verification_full_info">
+        <item>@string/info_verification_by_email</item>
+        <item>@string/info_cannot_access_my_email</item>
+        <item>@string/info_notyet_member</item>
+    </string-array>
+
+    <string-array name="verification_list">
+        <item>Cannot Access My Email</item>
+        <item>Not Yet a KADIN Member</item>
+    </string-array>
+
+    <string-array name="verification_info">
+        <item>@string/info_cannot_access_my_email</item>
+        <item>@string/info_notyet_member</item>
+    </string-array>
+
+    <string-array name="location_tab">
+        <item>Cities</item>
+        <item>Provinces</item>
+    </string-array>
+
+    <string-array name="forum_tab">
+        <item>Categories</item>
+        <item>Trending Topics</item>
+    </string-array>
+
+    <string-array name="forum_category">
+        <item>Popular Categories</item>
+        <item>All Categories</item>
+    </string-array>
+
+    <string-array name="stock_category">
+        <item>Stock Summary</item>
+        <item>Top Gainer</item>
+        <item>Top Looser</item>
+        <item>Top Value</item>
+        <item>Top Volume</item>
+        <item>Most Active</item>
+    </string-array>
+
+    <array name="pv_linear_determinate">
+        <item>@style/LightDeterminateLinearProgressView</item>
+        <item>@style/DarkDeterminateLinearProgressView</item>
+    </array>
+
+    <array name="pv_linear">
+        <item>@style/LightLinearProgressView</item>
+        <item>@style/DarkLinearProgressView</item>
+    </array>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textDay"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/imageWeather"
+        android:layout_toStartOf="@+id/imageWeather"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="Friday"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageWeather"
+        android:layout_width="@dimen/icon_listview_height"
+        android:layout_height="@dimen/icon_listview_height"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_weather_detail"
+        android:layout_toLeftOf="@+id/textMax"
+        android:scaleType="fitXY"
+        android:src="@drawable/weather_clear" />
+
+    <TextView
+        android:id="@+id/textMax"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_weather_detail"
+        android:layout_toLeftOf="@+id/textMin"
+        android:gravity="right"
+        android:singleLine="true"
+        android:text="30°C"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textMin"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:singleLine="true"
+        android:text="22°C"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</RelativeLayout>

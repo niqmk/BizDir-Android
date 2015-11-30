@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="@dimen/kadin_logo_login_width"
+                android:layout_height="@dimen/kadin_logo_login_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo_splash_screen" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageLogo"
+                android:drawableLeft="@drawable/ic_email_white_24dp"
+                android:drawablePadding="10dp"
+                android:hint="@string/member_detail_contact_email_address"
+                android:inputType="textEmailAddress"
+                android:maxLength="128"
+                android:singleLine="true"
+                android:textColor="@color/white" />
+
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editTextEmail"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_https_white_24dp"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="50"
+                android:singleLine="true"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editPassword"
+                android:layout_alignLeft="@+id/editPassword"
+                android:layout_alignRight="@+id/editPassword"
+                android:layout_alignStart="@+id/editPassword"
+                android:layout_below="@+id/editPassword"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/buttonRegister"
+                    style="@style/RaiseWaveButtonRippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bt_height"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/button_register"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                    android:textColor="@color/primary_text_default_material_light" />
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/buttonLogin"
+                    style="@style/RaiseWaveButtonRippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bt_height"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/button_Login"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                    android:textColor="@color/primary_text_default_material_light" />
+            </LinearLayout>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/buttonCantAccess"
+                style="@style/FlatWaveColorButtonRippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/bt_height_flat"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignStart="@+id/linearLayout"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginTop="5dp"
+                android:gravity="start|center_vertical"
+                android:padding="5dp"
+                android:text="@string/button_cant_access"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                android:textColor="@color/primary_text_default_material_dark" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/buttonSkip"
+                style="@style/FlatWaveColorButtonRippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/bt_height_flat"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignStart="@+id/linearLayout"
+                android:layout_below="@+id/buttonCantAccess"
+                android:gravity="start|center_vertical"
+                android:padding="5dp"
+                android:text="@string/button_skip"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                android:textColor="@color/primary_text_default_material_dark" />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="@string/banner_ad_unit_id" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</merge>
+
+

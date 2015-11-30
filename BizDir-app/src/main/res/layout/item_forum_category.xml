@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:id="@+id/frameIcon"
+        android:layout_width="@dimen/icon_listview_height"
+        android:layout_height="@dimen/icon_listview_height"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="14dip"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="@dimen/icon_listview_height"
+            android:layout_height="@dimen/icon_listview_height"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/frame_listview_item" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/icon_listview_height"
+            android:layout_height="@dimen/icon_listview_height"
+            android:contentDescription="@string/app_name"
+            android:padding="8dp"
+            android:scaleType="centerCrop" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextShadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/frameIcon"
+        android:layout_toRightOf="@+id/frameIcon"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="Example application"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

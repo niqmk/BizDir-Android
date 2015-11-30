@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_actionbar_height">72dp</dimen>
+
+    <dimen name="frame_icon_search_height">90dp</dimen>
+    <dimen name="frame_icon_search_height2">70dp</dimen>
+    <dimen name="icon_weather_width">55dp</dimen>
+</resources>

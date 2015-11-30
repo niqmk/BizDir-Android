@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip">
+
+    <FrameLayout
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/frame_icon_gridview_height"
+        android:layout_height="@dimen/frame_icon_gridview_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="@dimen/frame_icon_gridview_height"
+            android:layout_height="@dimen/frame_icon_gridview_height"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/frame_gridview_item" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/TextShadow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingBottom="15dp"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/dateMonthYear"
+            style="@style/TextShadow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|bottom"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingBottom="12dp"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextShadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/item_icon"
+        android:maxLines="4"
+        android:text="Example application Isigood adsasdas asdsdasd"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

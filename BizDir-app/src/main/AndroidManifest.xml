@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.bizdir"
+    android:installLocation="auto">
+
+    <permission
+        android:name="id.bizdir.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="id.bizdir.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="id.bizdir.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="id.bizdir.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+
+    <application
+        android:name="id.bizdir.App"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus">
+
+        <!--dev key -->
+        <!--
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCIqoUnFtTNFPVO4SOjOIaRIDVAHIJ-kWc" />
+            -->
+
+        <!--prod key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA7IkPTX5_6Q_UgYtSlq6g08elnauMc14g" />
+
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp.OkHttpGlideModule"
+            tools:node="remove" />
+
+        <meta-data
+            android:name="id.bizdir.util.ConfigGlideModule"
+            android:value="GlideModule" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/MaterialDrawerTheme.BizDir">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.bizdir.ui.activity.LoginActivity"
+            android:theme="@style/MaterialDrawerTheme.BizDir"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="id.bizdir.ui.activity.RegisterActivity"
+            android:label="@string/title_register"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="id.bizdir.ui.activity.ProfileActivity"
+            android:label="@string/title_profile"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="id.bizdir.ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MaterialDrawerTheme.BizDir.Light.DarkToolbar.TranslucentStatus">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="id.bizdir.ui.activity.SubCategoryActivity"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+        <activity
+            android:name="id.bizdir.ui.activity.MemberKadinListActivity"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+        <activity
+            android:name="id.bizdir.ui.activity.MemberKadinDetailActivity"
+            android:theme="@style/MaterialDrawerTheme" />
+        <activity
+            android:name="id.bizdir.ui.activity.EventCalendarDetailActivity"
+            android:label="@string/drawer_item_event_calendar"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.BusinessOpportunitiesDetailActivity"
+            android:label="@string/drawer_item_opportunities"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.PromotionDetailActivity"
+            android:label="@string/drawer_item_promotion"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.GoogleMapsActivity"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.NewsKadinDetailActivity"
+            android:label="@string/drawer_item_news"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.NewsBusinessDetailActivity"
+            android:label="@string/drawer_item_news"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.VerificationFormNewEmailActivity"
+            android:label="@string/title_verification_form"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.VerificationFormNotMemberActivity"
+            android:label="@string/title_verification_form"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.ChooseLocationActivity"
+            android:label="@string/choose_location"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name="id.bizdir.ui.activity.ChooseMemberActivity"
+            android:label="@string/drawer_item_search"
+            android:theme="@style/MaterialDrawerTheme.BizDir">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name="id.bizdir.ui.activity.WebViewActivity"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.ForumThreadActivity"
+            android:label="@string/drawer_item_forums"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.ForumPostActivity"
+            android:label="@string/drawer_item_forums"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.ImageViewerActivity"
+            android:label="@string/title_image_view"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.NewsStockDetailActivity"
+            android:label="@string/title_stock_detail"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.WeatherDetailActivity"
+            android:label="@string/title_weather_detail"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.WalkthroughActivity"
+            android:label="@string/title_walkthrough"
+            android:theme="@style/MaterialDrawerTheme.BizDir.Light.FullScreenTheme" />
+
+        <activity
+            android:name="id.bizdir.ui.activity.AssociationListActivity"
+            android:label="@string/drawer_item_association"
+            android:theme="@style/MaterialDrawerTheme.BizDir" />
+
+        <!-- PARSE -->
+        <service android:name="com.parse.PushService" />
+
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!--
+                  IMPORTANT: Change "com.parse.starter" to match your app's package name.
+                -->
+                <category android:name="id.bizdir" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

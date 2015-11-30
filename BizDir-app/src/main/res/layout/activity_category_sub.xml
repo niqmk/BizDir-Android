@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:layout_marginEnd="@dimen/material_drawer_margin"
+    android:layout_marginRight="@dimen/material_drawer_margin"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_top"
+        layout="@layout/toolbar_top" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <id.bizdir.ui.widget.DrawShadowFrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:clipChildren="false"
+        app:shadowDrawable="@drawable/header_shadow">
+
+        <ImageView
+            android:id="@+id/ivBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_main" />
+
+        <View
+            android:id="@+id/list_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <com.github.ksoichiro.android.observablescrollview.ObservableListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margintop_para_listview"
+            android:cacheColorHint="@color/listview_cache_color_hint"
+            android:divider="@color/white_transparent"
+            android:dividerHeight="1px" />
+
+        <FrameLayout
+            android:id="@+id/adsView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/banner_image_height"
+            android:layout_gravity="top">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_image_height"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/imageButtonAds"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_image_height"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_list" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textNoData"
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/no_data"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </id.bizdir.ui.widget.DrawShadowFrameLayout>
+
+
+</RelativeLayout>

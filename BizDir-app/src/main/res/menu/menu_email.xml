@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/action_home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_email_white_24dp"
+        android:title="@string/action_email_us"
+        app:showAsAction="always" />
+</menu>

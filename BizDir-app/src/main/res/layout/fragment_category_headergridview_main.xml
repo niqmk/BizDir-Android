@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/listview_cache_color_hint"
+        android:numColumns="@integer/num_columns_gridview"
+        android:scrollbarStyle="outsideOverlay"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp" />
+
+    <!--<include layout="@layout/gradient_header" /> -->
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_drawer_primary">#00556c</color>
+    <color name="material_drawer_primary_dark">#083d4f</color>
+    <color name="material_drawer_primary_light">#c1e0e8</color>
+    <color name="material_drawer_accent">#009ac4</color>
+    <!-- overwrite the selected colors because the primary color is to gelap -->
+    <color name="material_drawer_selected_text">@color/material_drawer_accent</color>
+    <color name="material_drawer_dark_selected_text">@color/material_drawer_primary</color>
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="white_transparent">#44FFFFFF</color>
+    <color name="list_white_transparent">#25FFFFFF</color>
+    <color name="black_transparent">#44000000</color>
+    <color name="black_dark_transparent">#66000000</color>
+    <color name="listview_cache_color_hint">#00000000</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_black">#000</color>
+
+    <color name="material_light_background_50">#FAFAFA</color>
+    <color name="material_light_background_100">#F5F5F5</color>
+    <color name="material_light_background_300">#E0E0E0</color>
+
+    <color name="material_dark_background_800">#424242</color>
+    <color name="material_dark_background_850">#303030</color>
+    <color name="material_dark_background_900">#212121</color>
+
+    <color name="red">#990000</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="orange">#FF9900</color>
+    <color name="orange_ads">#c5481c</color>
+
+    <color name="red_transparent">#85990000</color>
+    <color name="green_transparent">#85009900</color>
+
+</resources>
